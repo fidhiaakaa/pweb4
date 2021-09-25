@@ -1,0 +1,98 @@
+.header {
+  width: 100%;
+  margin: center;
+  height: 40px;
+  line-height: 80px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.jarak{
+  padding: 0 2pc;
+}
+
+.menu{
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  text-decoration: none;
+  padding: 0 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.nav li a:hover{
+  color: gray;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.wrapper{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.border{
+  border: 2px solid #ddd;
+  margin-top: 1pc;
+  padding-bottom: 1pc;
+  padding-left: 2pc;
+  padding-right: 2pc;
+  align-self: center;
+}
+
+.album{
+  width: 300px;
+}
+
+.button{
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 10px 110px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.button:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: darkslategrey;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+}
